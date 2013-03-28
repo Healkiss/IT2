@@ -1361,3 +1361,4 @@ def xml_to_list_of_automata( xml_path ):
 if __name__ == "__main__":
     import doctest
     doctest.testmod()
+    

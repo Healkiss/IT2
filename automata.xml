@@ -1,0 +1,100 @@
+<list_of_automata>
+
+<automaton>
+    <alphabet>   <c>a</c><c>b</c>   </alphabet>
+    <states> <s>1</s><s>2</s><s>3</s><s>4</s><s>5</s><s>6</s><s>7</s> </states>
+    <initials>   <s>0</s>   </initials>
+    <finals>   <s>0</s><s>3</s><s>4</s><s>6</s><s>7</s>   </finals>
+    <transitions>
+        <t> <o>0</o><c>b</c><e>2</e> </t>
+        <t> <o>0</o><c>a</c><e>2</e> </t>
+        <t> <o>0</o><c>2</c><e>2</e> </t>
+        <t> <o>1</o><c>a</c><e>2</e> </t>
+        <t> <o>1</o><c>b</c><e>1</e> </t>
+        <t> <o>2</o><c>a</c><e>3</e> </t>
+        <t> <o>2</o><c>b</c><e>2</e> </t>
+        <t> <o>3</o><c>a</c><e>2</e> </t>
+        <t> <o>3</o><c>b</c><e>6</e> </t>
+        <t> <o>4</o><c>a</c><e>5</e> </t>
+        <t> <o>4</o><c>b</c><e>4</e> </t>
+        <t> <o>5</o><c>a</c><e>6</e> </t>
+        <t> <o>5</o><c>b</c><e>5</e> </t>
+        <t> <o>6</o><c>a</c><e>5</e> </t>
+        <t> <o>6</o><c>b</c><e>7</e> </t>
+        <t> <o>7</o><c>a</c><e>5</e> </t>
+        <t> <o>7</o><c>b</c><e>3</e> </t>
+    </transitions>
+</automaton>
+
+
+<automaton>
+    <alphabet>   <c>a</c><c>b</c>   </alphabet>
+    <epsilons>   <c>0</c>   </epsilons>
+    <states>   <s>1</s><s>2</s><s>3</s><s>4</s><s>5</s>   </states>
+    <initials>   <s>1</s>   </initials>
+    <finals>   <s>3</s><s>4</s>   </finals>
+    <transitions>
+        <t> <o>1</o><c>a</c><e>2</e> </t>
+        <t> <o>1</o><c>b</c><e>4</e> </t>
+        <t> <o>2</o><c>a</c><e>4</e> </t>
+        <t> <o>2</o><c>b</c><e>3</e> </t>
+        <t> <o>2</o><c>0</c><e>4</e> </t>
+        <t> <o>4</o><c>a</c><e>4</e> </t>
+        <t> <o>2</o><c>b</c><e>3</e> </t>
+        <t> <o>3</o><c>a</c><e>3</e> </t>
+        <t> <o>3</o><c>b</c><e>3</e> </t>
+    </transitions>
+</automaton>
+
+
+
+<automaton>
+    <alphabet>   <c>a</c><c>b</c>   </alphabet>
+    <states> <s>1</s><s>2</s><s>3</s><s>4</s><s>5</s><s>6</s><s>7</s> </states>
+    <initials>   <s>1</s>   </initials>
+    <finals>   <s>3</s><s>5</s><s>6</s><s>7</s>   </finals>
+    <transitions>
+        <t> <o>1</o><c>a</c><e>2</e> </t>
+        <t> <o>1</o><c>b</c><e>4</e> </t>
+        <t> <o>2</o><c>a</c><e>7</e> </t>
+        <t> <o>2</o><c>b</c><e>5</e> </t>
+        <t> <o>3</o><c>a</c><e>1</e> </t>
+        <t> <o>3</o><c>b</c><e>6</e> </t>
+        <t> <o>4</o><c>a</c><e>7</e> </t>
+        <t> <o>4</o><c>b</c><e>2</e> </t>
+        <t> <o>5</o><c>a</c><e>7</e> </t>
+        <t> <o>5</o><c>b</c><e>2</e> </t>
+        <t> <o>6</o><c>a</c><e>3</e> </t>
+        <t> <o>6</o><c>b</c><e>2</e> </t>
+        <t> <o>7</o><c>a</c><e>1</e> </t>
+        <t> <o>7</o><c>b</c><e>6</e> </t>
+    </transitions>
+</automaton>
+
+
+
+<automaton>
+    <alphabet>   <c>a</c><c>b</c>   </alphabet>
+    <states> <s>1</s><s>2</s><s>3</s><s>4</s><s>5</s><s>6</s><s>7</s> </states>
+    <initials>   <s>1</s><s>6</s>   </initials>
+    <finals>   <s>3</s><s>5</s>   </finals>
+    <transitions>
+        <t> <o>1</o><c>a</c><e>2</e> </t>
+        <t> <o>1</o><c>b</c><e>4</e> </t>
+        <t> <o>2</o><c>a</c><e>3</e> </t>
+        <t> <o>2</o><c>b</c><e>5</e> </t>
+        <t> <o>3</o><c>a</c><e>1</e> </t>
+        <t> <o>3</o><c>b</c><e>5</e> </t>
+        <t> <o>4</o><c>a</c><e>3</e> </t>
+        <t> <o>4</o><c>b</c><e>2</e> </t>
+        <t> <o>5</o><c>a</c><e>3</e> </t>
+        <t> <o>5</o><c>b</c><e>7</e> </t>
+        <t> <o>6</o><c>a</c><e>7</e> </t>
+        <t> <o>6</o><c>b</c><e>4</e> </t>
+        <t> <o>7</o><c>a</c><e>3</e> </t>
+        <t> <o>7</o><c>b</c><e>5</e> </t>
+    </transitions>
+</automaton>
+
+
+</list_of_automata>

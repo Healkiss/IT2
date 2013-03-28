@@ -1,0 +1,38 @@
+COMPLET
+ajouter un puit
+Sur tous les sommets
+	si il manque une lettre de l'alphabet
+		rajouter une transition avec cette lettre jusqu'au puit
+
+UNION		
+	on determinise
+	on crée les etapes grace aux couples des etats initiaux des deux automates
+	tant que la liste des couples de sommets n'est pas à true
+		pour chaque lettre
+			voir le couple d'arrivée
+			si il est deja connu 
+				ne rien faire
+			sinon
+				l'ajouter a la liste des couples de sommets
+		couple de sommets = true
+	Tous les couples de sommets comportant deux etats finaux deviennent finaux
+	
+INTERESECTION
+	on determinise
+	on crée les etapes grace aux couples des etats initiaux des deux automates
+	tant que la liste des couples de sommets n'est pas à true
+		pour chaque lettre
+			voir le couple d'arrivée
+			si il est deja connu 
+				ne rien faire
+			sinon
+				l'ajouter a la liste des couples de sommets
+		couple de sommets = true
+	Tous les couples de sommets comportant au moins un etat final deviennent finaux
+
+MIRROIR
+	c'est l'inverse.
+	3 etapes
+	1)determiniser
+	2)completer le graphe
+	3) inverser les etats
